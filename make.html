@@ -93,7 +93,7 @@ body {
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
      <link href="style.css" rel="stylesheet"type="text/css">
 </head>
-<body>
+<body style="background-image: linear-gradient(to right, #D500F9, #FFD54F);">
 <div class="signup-form">
     <form action="/examples/actions/confirmation.php" method="post">
 		<h2>Sign Up</h2>
@@ -107,6 +107,9 @@ body {
         </div>
         <div class="form-group">
         	<label class="form-control-label text-muted">Email id</label> <input type="email" id="email" name="email" placeholder="Email id" class="form-control">
+        </div>
+        <div class="form-group">
+        	<input type="text" class="form-control" name="twitter id" placeholder="twitter id" required="required">
         </div>
 		<div class="form-group">
             <input type="password" class="form-control" name="password" placeholder="Password" required="required">
@@ -122,6 +125,11 @@ body {
         </div>
     </form>
 	<div class="hint-text">Already have an account? <a href="#">Login here</a></div>
+
+
+
+
+	
 </div>
 </body>
 </html>
