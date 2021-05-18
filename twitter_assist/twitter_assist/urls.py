@@ -23,4 +23,4 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('user/', include('mainapp.urls')),
     path('', RedirectView.as_view(url='user/', permanent=True)),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] 
