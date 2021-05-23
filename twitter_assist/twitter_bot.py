@@ -12,7 +12,6 @@ while True:
     since_id = int(f.read())
     f.close()
     mentions = api.mentions_timeline(include_entities=False, since_id=since_id)
-    print(len(mentions))
     for tweet in reversed(mentions):
         f = open('media/'+tweet.user.screen_name+'.txt', 'a')
         f.write(tweet.created_at.strftime("- %d/%m/%Y %I:%M %p -------------\n"))
