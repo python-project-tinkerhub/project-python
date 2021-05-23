@@ -2,7 +2,12 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
+import subprocess
 
+
+p = subprocess.Popen([sys.executable, 'twitter_bot.py'], 
+                                    stdout=subprocess.PIPE, 
+                                    stderr=subprocess.STDOUT)
 
 def main():
     """Run administrative tasks."""
