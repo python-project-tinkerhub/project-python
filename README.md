@@ -1,4 +1,4 @@
-                                                                TWEET SERVER
+                                                             Twitter Assist
                                                                
                                                                
                                                                
