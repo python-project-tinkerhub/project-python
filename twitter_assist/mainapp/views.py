@@ -3,6 +3,7 @@ from django.http import HttpResponse, Http404
 import os
 from django.conf import settings
 from .models import User
+from .twitter_bot import download_file
 
 def index(request):
     if request.method == "POST":
@@ -31,15 +32,14 @@ def dashboard(request):
     return render(request, 'dashboard.html')
 
 def download(request):
-    if not request.session['email']:
-        return redirect('index')
     user = User.objects.get(email=request.session['email'])
-    filename = user.twitterid+'.txt'
+    filename = 'mentions.txt'
     file_path = os.path.join(settings.MEDIA_ROOT, filename)
+    download_file(twitterid=user.twitterid, filepath=file_path)
     if os.path.exists(file_path):
         with open(file_path, 'rb') as fh:
             response = HttpResponse(fh.read(), content_type="text/plain")
-            response['Content-Disposition'] = "attachment; filename=%s" % 'mentions.txt'
+            response['Content-Disposition'] = "attachment; filename=%s" % filename
             return response
     raise Http404
 
