@@ -14,4 +14,11 @@
    4.After giving all your tweets you can click the 'pull tweet list' button which is provided in the dashboard.
    5.That's all now you will receive all your tweets as a text file.
    
+   for admin:
+   1.The program tracks the tweets from user by using API key.
+   2.When the user creates an account in the website using twitter id etc it will be saved in the DB.
+   3.When the user log in into the dashboard it uses the twitter id which was collected before from database.
+   4.When the user clicks the download button the program gets executed and the program writes the current tweets in a text file and this text file will be made available      to download for user.
+   5.The python file containing API keys are 'ignored' for security issues in GitHub repo.
+   
    
