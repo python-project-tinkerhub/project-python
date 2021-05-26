@@ -1,3 +1,6 @@
+![https://trello-attachments.s3.amazonaws.com/542e9c6316504d5797afbfb9/542e9c6316504d5797afbfc1/39dee8d993841943b5723510ce663233/Frame_19.png](https://trello-attachments.s3.amazonaws.com/542e9c6316504d5797afbfb9/542e9c6316504d5797afbfc1/39dee8d993841943b5723510ce663233/Frame_19.png)
+
+
 # Twitter Assist
 
 A django application which helps you to save twitter threads.You can save some valuable twitter tweets by mentioning a bot name inside the tweet using your twitter account. With the help of twiteer API these mentioned tweets can be downloaded from the Dashboard.To try out visit (http://18.220.159.14)
@@ -28,5 +31,12 @@ BFH/receQLwqYEjVRwpEI/2021
   3.  When the user log in into the dashboard, the progrram collects the tweets from user using the API.
   4.  When the user clicks the download button the program writes the current tweets in a text file and this text file will be made available for the user to download.
   5.  The python file containing API keys are 'ignored' for security issues in GitHub repo. A security_keys.py file with api keys must be added to twitter_assist/mainappp directory.
+
+###Libraries Used
+[requirements.txt] (https://github.com/python-project-tinkerhub/project-python/blob/master/requirements.txt)
+
+###How to Configure
+
+
    
    
