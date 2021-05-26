@@ -37,11 +37,11 @@ BFH/receQLwqYEjVRwpEI/2021
 
 ## How to configure
 
-[Instructions for setting up project](https://github.com/ThejasKiranPS/tweet-thread-saver/blob/main/how-to-run.md)
+[Instructions for setting up project](https://github.com/python-project-tinkerhub/project-python/blob/master/config.md)
 
 ## How to Run
 
-[Instructions for running](https://github.com/ThejasKiranPS/tweet-thread-saver/blob/main/how-to-run.md)
+[Instructions for running](https://github.com/python-project-tinkerhub/project-python/blob/master/config.md)
 
 
 
