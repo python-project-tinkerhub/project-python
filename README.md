@@ -35,7 +35,13 @@ BFH/receQLwqYEjVRwpEI/2021
 ### Libraries Used
 [requirements.txt](https://github.com/python-project-tinkerhub/project-python/blob/master/requirements.txt)
 
-### How to Configure
+## How to configure
+
+[Instructions for setting up project](https://github.com/ThejasKiranPS/tweet-thread-saver/blob/main/how-to-run.md)
+
+## How to Run
+
+[Instructions for running](https://github.com/ThejasKiranPS/tweet-thread-saver/blob/main/how-to-run.md)
 
 
 
