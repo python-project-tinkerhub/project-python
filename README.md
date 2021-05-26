@@ -32,10 +32,11 @@ BFH/receQLwqYEjVRwpEI/2021
   4.  When the user clicks the download button the program writes the current tweets in a text file and this text file will be made available for the user to download.
   5.  The python file containing API keys are 'ignored' for security issues in GitHub repo. A security_keys.py file with api keys must be added to twitter_assist/mainappp directory.
 
-###Libraries Used
+### Libraries Used
 [requirements.txt] (https://github.com/python-project-tinkerhub/project-python/blob/master/requirements.txt)
 
-###How to Configure
+### How to Configure
+
 
 
    
