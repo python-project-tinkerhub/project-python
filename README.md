@@ -15,12 +15,12 @@ BFH/receQLwqYEjVRwpEI/2021
 ## How it Works ?
 
 ### For users:
-  1.  For using the web application you must have a twitter account
-  1.  You can create an account through the provided link, where you will be giving your name, email id, twitter id etc.
-  2.  Then you must login from the index page using username and password which was created initially. This will take you to dashboard.
+  1.  For using the web application you must have a twitter account.
+  1.  You can create an account through the provided link, where you must enter your name, email id, twitter id etc.
+  2.  Then you must login using username and password which was created initially. This will take you to dashboard.
   3.  Here you will be provided with a bot name. The thing you should do is just mention this bot name in your tweets which must be saved.
-  4.  After giving all your tweets you can click the 'pull tweet list' button which is provided in the dashboard.
-  5.  That's all now you will receive all your tweets as a text file.
+  4.  After giving all your tweets you can click the 'download' button in the dashboard.
+  5.  Then the browser will download a text file 'mentions.txt' which contains all the mentions along with its timestamp.
 
 ### For Developers:
   1.  The program tracks the tweets of user by using Twitter API and Tweepy. You should have a Twitter Developer account to access the API.
