@@ -33,7 +33,7 @@ BFH/receQLwqYEjVRwpEI/2021
   5.  The python file containing API keys are 'ignored' for security issues in GitHub repo. A security_keys.py file with api keys must be added to twitter_assist/mainappp directory.
 
 ### Libraries Used
-[requirements.txt] (https://github.com/python-project-tinkerhub/project-python/blob/master/requirements.txt)
+[requirements.txt](https://github.com/python-project-tinkerhub/project-python/blob/master/requirements.txt)
 
 ### How to Configure
 
