@@ -20,7 +20,7 @@ BFH/receQLwqYEjVRwpEI/2021
   2.  Then you must login using username and password which was created initially. This will take you to dashboard.
   3.  Here you will be provided with a bot name. The thing you should do is just mention this bot name in your tweets which must be saved.
   4.  After giving all your tweets you can click the 'download' button in the dashboard.
-  5.  Then the browser will download a text file 'mentions.txt' which contains all the mentions along with its timestamp.
+  5.  Then the browser will download a text file 'mentions.txt' which contains all the tweets along with its timestamp.
 
 ### For Developers:
   1.  The program tracks the tweets of user by using Twitter API and Tweepy. You should have a Twitter Developer account to access the API.
