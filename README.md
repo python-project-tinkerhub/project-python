@@ -1,6 +1,6 @@
 # Twitter Assist
 
-A django application which helps you to save twitter threads.You can save some valuable twitter tweets by mentioning a bot name inside the tweet using your twitter account. With the help of twiteer API these mentioned tweets can be downloaded from the django website.To try out visit (http://18.220.159.14)
+A django application which helps you to save twitter threads.You can save some valuable twitter tweets by mentioning a bot name inside the tweet using your twitter account. With the help of twiteer API these mentioned tweets can be downloaded from the Dashboard.To try out visit (http://18.220.159.14)
 
 ## Team Id
 
